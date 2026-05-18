@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <string.h>
-int main() {
 
-    struct student {
-        char name[30];;
-        int roll;
-        float marks;
-    }, s[n], temp;
+struct student {
+    char name[30];;
+    int roll;
+    float marks;
+};
+
+int main() {
 
     int n, i, j;
     
     printf("Enter the number of students: ");
     scanf("%d", &n);
+
+    struct student s[n], temp;
 
     for(i=1; i<=n; i++) {
         printf("Enter details for student %d:\n", i);
