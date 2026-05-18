@@ -43,3 +43,4 @@ int main() {
         printf("Marks: %.2f \n", s[i].marks);
     }
 }    
+
