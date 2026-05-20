@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main() {
-	int a,b,*c,*m,*n,sum;
+	int a,b,*c,*d,sum;
 	printf("Enter any two numbers:");
 	scanf("%d %d",&a,&b);
-	m = &a;
-	n = &b;
+	c = &a;
+	d = &b;
 	sum = a+b;
-	c = &sum;
-	printf("Sum is %d",*c);
-	printf("Adress of sum is %d \n",c);
-	printf("Values are: %d %d \n",*m,*n);
-	printf("Adresses are: %d %d \n",m,n);
+	printf("Sum is %d",sum);
+	printf("Address of sum is %p \n",&sum);
+	printf("Values are: %d %d \n",*c,*d);
+	printf("Addresses are: %p %p \n",c,d);
 }
