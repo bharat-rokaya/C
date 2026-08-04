@@ -6,7 +6,7 @@ int main() {
 	c = &a;
 	d = &b;
 	sum = a+b;
-	printf("Sum is %d",sum);
+	printf("Sum is %d \n",sum);
 	printf("Address of sum is %p \n",&sum);
 	printf("Values are: %d %d \n",*c,*d);
 	printf("Addresses are: %p %p \n",c,d);
