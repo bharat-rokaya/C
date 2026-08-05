@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
+   int num1, num2;
+   cout << "Enter any two numbers: ";
+   cin >> num1 >> num2;
+   cout << "The sum is: " << num1 + num2 << endl;
+   return 0;
 }
